@@ -1,7 +1,7 @@
 # Computer Use Demo
 
 ## 1. 创建新的服务器实例
-创建一台 Ubuntu Server 22.04 LTS (HVM), SSD Volume Type 实例
+在AWS新加坡Region创建一台 Ubuntu Server 22.04 LTS (HVM), SSD Volume Type 实例
 
 ## 2. 安装图形界面和 Xrdp 远程桌面
 首先，使用 SSH 连接到您的服务器，使用以下命令依次可以按照步骤：
