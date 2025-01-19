@@ -118,10 +118,8 @@ sudo docker run \
 6. 等待所有图片完全生成（注意：每次图片下载地址不同）
 7. 将生成的图片保存到本地 C 盘根目录下”
 
-## 9. 参考链接
-https://blog.csdn.net/rralucard123/article/details/143190747
 
-## 10. Ubuntu 22.04 中文输入法配置
+## 9. Ubuntu 22.04 中文输入法配置
 ```bash
 # 安装桌面相关功能
 export DEBIAN_FRONTEND=noninteractive
