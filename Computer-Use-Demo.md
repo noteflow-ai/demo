@@ -105,8 +105,18 @@ sudo docker run \
     -p 8080:8080 \
     -it -d ghcr.io/anthropics/anthropic-quickstarts:computer-use-demo-latest
 ```
+## 8. Ubuntu 22.04 中文输入法配置
+```bash
+# 安装桌面相关功能
+export DEBIAN_FRONTEND=noninteractive
+sudo -E apt-get update
+sudo -E apt-get install -y ubuntu-desktop
+```
 
-## 8. Demo示例参考
+配置完成后，点击右上角输入法的 configure，添加双拼输入法图标。
+- 切换英文方法: control + space
+- 切换中文方法: space
+## 9. Demo示例参考
 打开http://localhost:8080/
 在chatbot输入如下提示词：
 ```bash
@@ -120,14 +130,4 @@ sudo docker run \
 7. 将生成的图片保存到本地C盘根目录下
 ```
 
-## 9. Ubuntu 22.04 中文输入法配置
-```bash
-# 安装桌面相关功能
-export DEBIAN_FRONTEND=noninteractive
-sudo -E apt-get update
-sudo -E apt-get install -y ubuntu-desktop
-```
 
-配置完成后，点击右上角输入法的 configure，添加双拼输入法图标。
-- 切换英文方法: control + space
-- 切换中文方法: space
