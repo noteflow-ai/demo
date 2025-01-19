@@ -105,15 +105,17 @@ sudo docker run \
     -it ghcr.io/anthropics/anthropic-quickstarts:computer-use-demo-latest
 ```
 
-## 8. 示例参考
-按照以下步骤进行操作：
+## 8. Demo示例参考
+打开http://localhost:8080/
+在chatbot输入如下提示词：
+“按照以下步骤进行操作：
 1. 在浏览器中输入网址：https://jimeng.jianying.com/ai-tool/home
 2. 如果页面弹出任何窗口，先进行关闭，然后继续操作
 3. 如果页面显示登录，则需要完成登录；如果已经登录，直接进入下一步操作
 4. 在页面中，点击"图片生成"按钮，进入图片生成功能页面
 5. 在图片生成区域输入："黄昏海滩"，然后点击生成
 6. 等待所有图片完全生成（注意：每次图片下载地址不同）
-7. 将生成的图片保存到本地 C 盘根目录下
+7. 将生成的图片保存到本地 C 盘根目录下”
 
 ## 9. 参考链接
 https://blog.csdn.net/rralucard123/article/details/143190747
