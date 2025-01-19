@@ -2,7 +2,8 @@
 
 ## 1. 创建新的服务器实例
 在AWS新加坡Region创建一台 Ubuntu Server 22.04 LTS (HVM), SSD Volume Type 实例
-注意：防火墙开通端口和Docker Run加入-d参数
+
+注意：安全组入站流量开通端口3389和8080
 
 ## 2. 安装图形界面和 Xrdp 远程桌面
 首先，使用 SSH 连接到您的服务器，使用以下命令依次可以按照步骤：
